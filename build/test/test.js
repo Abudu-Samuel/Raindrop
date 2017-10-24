@@ -39,8 +39,8 @@ describe('rainDrops', function () {
     it('should return PlingPlong for 21', function () {
       assert.equal((0, _main2.default)(21), 'PlingPlong');
     });
-    it('should return Plong for 406', function () {
-      assert.equal((0, _main2.default)('406'), 'Plong');
+    it('should return Enter number greater than 0 for negative numbers', function () {
+      assert.equal((0, _main2.default)('-1'), 'Enter number greater than 0');
     });
     it("should return Please enter a valid number for '' ", function () {
       assert.equal((0, _main2.default)("''"), 'Please enter a valid number');

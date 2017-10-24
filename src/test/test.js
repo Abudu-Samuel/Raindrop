@@ -29,8 +29,8 @@ describe('rainDrops', () => {
     it('should return PlingPlong for 21', () => {
       assert.equal(myApp(21), 'PlingPlong');
     });
-    it('should return Plong for 406', () => {
-      assert.equal(myApp('406'), 'Plong');
+    it('should return Enter number greater than 0 for negative numbers', () => {
+      assert.equal(myApp('-1'), 'Enter number greater than 0');
     });
     it("should return Please enter a valid number for '' ", () => {
       assert.equal(myApp("''"), 'Please enter a valid number');

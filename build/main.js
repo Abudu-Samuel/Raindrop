@@ -16,6 +16,9 @@ var rainDrops = function rainDrops(num) {
   if (num % 7 === 0) {
     output += 'Plong';
   }
+  if (num < 0) {
+    output = 'Enter number greater than 0';
+  }
   if (output.length === 0) {
     return Number(num);
   }
